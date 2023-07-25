@@ -1,3 +1,8 @@
+// Task 8: Implement a JavaScript function to find the second smallest element in an array of numbers. The function should return the second smallest number.
+
+
+
+
 function find2Small(a) {
     if (a.length < 2) {
         throw new Error("at least two elements.");
